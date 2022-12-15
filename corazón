@@ -1,0 +1,25 @@
+<html>
+<head>
+<style>
+#heart {
+  font-size: 2000px;
+  color: red;
+  animation: throb 1s infinite;
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  text-shadow: -20px 0 black, 0 20px black, 20px 0 black, 0 -20px black;
+}
+
+@keyframes throb {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+</style>
+</head>
+<body>
+<div id="heart">&#9829;</div>
+<title>&#9829;</title>
+</body>
+</html>
